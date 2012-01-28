@@ -1,6 +1,8 @@
 # meijin
 名人(meijin) is a chrome extension to post without comment in pinterest.
 
+You can be pro-pinner!!!
+
 ## License
 
 (The MIT License)
