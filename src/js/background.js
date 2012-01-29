@@ -52,7 +52,7 @@ $(function(){
                   "&title=" + title  + "&is_video=false&";
   };
   meijin.query = function(info, tab){
-    query = {
+    var query = {
       tags      : "",
       replies   : "",
       buyable   : "",
