@@ -39,7 +39,7 @@ $(function(){
       meijin.remove_boards(meijin.create_boards);
     });
   };
-  meijin.success = function(q){
+  meijin.success = function(){
     chrome.tabs.getSelected(null, function(tab){
       chrome.tabs.sendRequest(tab.id, { is_success : true, message : "done" });
     });
@@ -71,7 +71,7 @@ $(function(){
       url     : meijin.host + "/pin/create/bookmarklet/",
       data    : query,
       success : function(data){
-        meijin.success(data);
+        meijin.success();
       }
     });
   };
